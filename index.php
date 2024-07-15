@@ -140,9 +140,9 @@ if (isset($_POST['cari'])) {
 while ($data = mysqli_fetch_array($tampilkan)) {
 
     if ($data["kategori"] == "GEREJA") {
-        $iconUrl = "dashboard/assets/img/gereja.png";
+        $iconUrl = "paper-dashboard-master/assets/img/gereja.png";
     } elseif ($data["kategori"] == "MESJID") {
-        $iconUrl = "dashboard/assets/img/mesjid.png";
+        $iconUrl = "paper-dashboard-master/assets/img/mesjid.png";
     } 
     ?>
     var customIcon = new L.Icon({
